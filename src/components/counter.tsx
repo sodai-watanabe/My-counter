@@ -1,4 +1,3 @@
-import React, { DetailedHTMLProps, DetailedReactHTMLElement } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { decrement, increment, reset } from '../features/counterSlice';
 import { RootState } from '../app/store';
