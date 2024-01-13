@@ -3,10 +3,6 @@ import { decrement, increment, reset } from '../features/counterSlice';
 import { RootState } from '../app/store';
 
 
-// type Props = {
-//   channelName: string | null;
-// };
-
 const Counter = () => {
     const count :number = useSelector((state:RootState) => state.counter.value);
     const dispatch = useDispatch();
